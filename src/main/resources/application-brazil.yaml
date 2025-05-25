@@ -1,0 +1,5 @@
+app:
+  country: "Brazil"
+  currency: "real"
+  medical-ratio: 0.03
+  robbery-ratio: 0.05

@@ -1,0 +1,5 @@
+app:
+  country: "Japan"
+  currency: "yen"
+  medical-ratio: 0.015
+  robbery-ratio: 0.01

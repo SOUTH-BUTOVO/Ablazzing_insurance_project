@@ -1,5 +1,7 @@
-app:
+insurance:
   country: "Brazil"
   currency: "real"
   medical-ratio: 0.03
+  medical-increment: 800
   robbery-ratio: 0.05
+  robbery-increment: 300

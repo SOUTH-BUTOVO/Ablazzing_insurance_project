@@ -1,5 +1,7 @@
-app:
+insurance:
   country: "Japan"
   currency: "yen"
   medical-ratio: 0.015
+  medical-increment: 12000
   robbery-ratio: 0.01
+  robbery-increment: 10000

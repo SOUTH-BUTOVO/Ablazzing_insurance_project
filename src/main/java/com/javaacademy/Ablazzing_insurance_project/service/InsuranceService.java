@@ -1,14 +1,13 @@
 package com.javaacademy.Ablazzing_insurance_project.service;
 
-import com.javaacademy.Ablazzing_insurance_project.insurance.InsuranceContract;
-import com.javaacademy.Ablazzing_insurance_project.insurance.TypeInsuranceOfCountry;
+import com.javaacademy.Ablazzing_insurance_project.insurance.Contract;
+import com.javaacademy.Ablazzing_insurance_project.insurance.Type;
 
 import java.math.BigDecimal;
 
 public interface InsuranceService {
 
-    InsuranceContract insuranceOffers(
-            BigDecimal amountCoverage, String fioClient, TypeInsuranceOfCountry typeInsurance);
+    Contract offer(BigDecimal amountCoverage, String fullName, Type type);
 
-    InsuranceContract buyInsurance(InsuranceContract numberContract);
+    Contract buy(String numberContract);
 }
